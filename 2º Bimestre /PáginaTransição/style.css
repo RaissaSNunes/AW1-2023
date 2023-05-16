@@ -1,0 +1,94 @@
+.titulo{
+	background: rgb(244,250,0);
+	background: linear-gradient(0deg, rgba(244,250,0,1) 0%, rgba(255,181,22,1) 100%);
+	text-align:center;
+}
+
+.questionario{
+	background-image: radial-gradient(circle at 20.12% -14.09%, #c7d26f 0, #cfcb66 6.25%, #d7c35d 12.5%, #deba54 18.75%, #e4b04d 25%, #e9a546 31.25%, #ed9841 37.5%, #f0893e 43.75%, #f2793c 50%, #f3683d 56.25%, #f35542 62.5%, #f34249 68.75%, #f22b52 75%, #f0075c 81.25%, #ec0069 87.5%, #e70076 93.75%, #e00085 100%);
+}
+
+.box {
+	display: grid;
+	background-image: radial-gradient(circle at 43.28% 68.47%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+}
+
+.textolado{
+	column-count:2;   
+}
+
+.meio{
+	background-image: radial-gradient(circle at 50% -20.71%, #e6f58f 0, #e9eb7f 10%, #ecdf6e 20%, #efd25d 30%, #f1c44d 40%, #f2b53c 50%, #f3a52d 60%, #f59522 70%, #f8851d 80%, #fa741e 90%, #fc6324 100%);
+	text-align: center;
+}
+
+.imagem{
+  margin: auto;
+  display: block;
+}
+
+.audio{
+	align-items: left;	
+}
+
+.botao{
+	background: rgb(255,0,0);
+	background-image: radial-gradient(circle at -7.92% 9.44%, #c7d26f 0, #cfcb66 6.25%, #d7c35d 12.5%, #deba54 18.75%, #e4b04d 25%, #e9a546 31.25%, #ed9841 37.5%, #f0893e 43.75%, #f2793c 50%, #f3683d 56.25%, #f35542 62.5%, #f34249 68.75%, #f22b52 75%, #f0075c 81.25%, #ec0069 87.5%, #e70076 93.75%, #e00085 100%);
+	transition: background-color 0.5s ease;
+	display: inline-block;
+	padding: 20px;
+}
+
+.botao:hover{
+	background: rgb(255,0,0);
+	background: linear-gradient(90deg, rgba(255,0,0,1) 100%, rgba(129,98,190,1) 100%, rgba(255,0,0,1) 100%);
+}
+
+.botao2{
+	
+	background: rgb(255,0,0);
+	background: linear-gradient(90deg, rgba(255,0,0,1) 100%, rgba(129,98,190,1) 100%, rgba(255,0,0,1) 100%);
+	transition: background-color 0.5s ease;
+	display: inline-block;
+	padding: 20px;
+}
+
+.botao2:hover{
+	background: rgb(255,0,0);
+	background: linear-gradient(90deg, rgba(255,0,0,1) 5%, rgba(236,255,0,1) 41%, rgba(98,183,190,1) 92%);
+}
+
+
+.transformacao{
+	transform: rotate(10deg);
+	display: inline-block;
+	vertical-align:left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+	background-image: linear-gradient(180deg, #00a9ff 0, #00a6ff 3.85%, #00a2ff 7.69%, #009eff 11.54%, #0099ff 15.38%, #0093ff 19.23%, #478dff 23.08%, #7685ff 26.92%, #977dff 30.77%, #b175f6 34.62%, #c66cea 38.46%, #d863dc 42.31%, #e65bcc 46.15%, #f253bc 50%, #fb4dab 53.85%, #ff499a 57.69%, #ff4889 61.54%, #ff4a78 65.38%, #ff4e67 69.23%, #ff5557 73.08%, #fb5c47 76.92%, #f46537 80.77%, #eb6d26 84.62%, #e17513 88.46%, #d57d00 92.31%, #c88400 96.15%, #ba8a00 100%);
+}
+
+.transformacao{
+	transform: rotate(-10deg);
+	background-image: radial-gradient(circle at 56.16% -20.44%, #ff7f85 0, #ff748c 8.33%, #ff6994 16.67%, #ff5d9c 25%, #ff52a4 33.33%, #ff47ad 41.67%, #f23cb5 50%, #e234be 58.33%, #cf32c8 66.67%, #b935d2 75%, #9f3bdb 83.33%, #7e42e5 91.67%, #514aed 100%);
+}
+
+.album{
+	background-image: radial-gradient(circle at 56.16% -20.44%, #ff7f85 0, #ff748c 8.33%, #ff6994 16.67%, #ff5d9c 25%, #ff52a4 33.33%, #ff47ad 41.67%, #f23cb5 50%, #e234be 58.33%, #cf32c8 66.67%, #b935d2 75%, #9f3bdb 83.33%, #7e42e5 91.67%, #514aed 100%);
+}
+
+table{
+	border:1px solid rgb(1, 1, 1);
+	background-image: radial-gradient(circle at 37.72% 119.64%, #00afff 0, #00acff 4.55%, #00a7ff 9.09%, #00a2ff 13.64%, #009bff 18.18%, #0093ff 22.73%, #0089ff 27.27%, #617eff 31.82%, #9871ff 36.36%, #be62ff 40.91%, #db51ff 45.45%, #f23cf2 50%, #ff1fdd 54.55%, #ff00c7 59.09%, #ff00b0 63.64%, #ff0099 68.18%, #ff0082 72.73%, #ff006c 77.27%, #ff0055 81.82%, #ff0e3f 86.36%, #ff3227 90.91%, #ff4800 95.45%, #ff5900 100%);
+	margin:auto;
+}
+
+td{
+	border: 1px solid black; 
+    text-align: left;
+}
+
+th{
+	 border: 1px solid black;
+}
