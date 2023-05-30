@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+	background-image: radial-gradient(circle at 50% -20.71%, #a4d8ec 0, #a7d7ef 6.25%, #abd6f1 12.5%, #b0d5f3 18.75%, #b5d3f4 25%, #bbd2f4 31.25%, #c1d0f4 37.5%, #c7cff3 43.75%, #cdcdf2 50%, #d3cbf0 56.25%, #d9caed 62.5%, #dec8ea 68.75%, #e3c7e7 75%, #e8c6e3 81.25%, #ecc5df 87.5%, #efc4da 93.75%, #f2c4d6 100%);}
+
+@media screen and (max-width: 600px) {
+    ul{
+        list-style: none;
+    }
+    
+    img{
+        width: 40px;
+    }
+    
+    input{
+        display: none;
+    }
+    
+    nav{
+		background-image: radial-gradient(circle at 50% -20.71%, #a4d8ec 0, #a7d7ef 6.25%, #abd6f1 12.5%, #b0d5f3 18.75%, #b5d3f4 25%, #bbd2f4 31.25%, #c1d0f4 37.5%, #c7cff3 43.75%, #cdcdf2 50%, #d3cbf0 56.25%, #d9caed 62.5%, #dec8ea 68.75%, #e3c7e7 75%, #e8c6e3 81.25%, #ecc5df 87.5%, #efc4da 93.75%, #f2c4d6 100%);        width: 350px;
+        height: 800px;
+        color: white;
+        position: relative;
+        left: -350px;
+        transition: all .5s;
+    }
+    
+    input[type="checkbox"]:checked ~ nav{
+        transform: translateX(350px);
+    }
+    
+    ul{
+        top: 50px;
+        position: absolute;
+        width: 100%;
+    }
+    
+    a{
+		background-image: radial-gradient(circle at 50% -20.71%, #a4d8ec 0, #a7d7ef 6.25%, #abd6f1 12.5%, #b0d5f3 18.75%, #b5d3f4 25%, #bbd2f4 31.25%, #c1d0f4 37.5%, #c7cff3 43.75%, #cdcdf2 50%, #d3cbf0 56.25%, #d9caed 62.5%, #dec8ea 68.75%, #e3c7e7 75%, #e8c6e3 81.25%, #ecc5df 87.5%, #efc4da 93.75%, #f2c4d6 100%);        color: white;
+        display: block;
+        padding: 20px 5px;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgb(75, 73, 73);
+    }
+    
+    label{
+        padding: 15px;
+        position: absolute;
+        z-index: 1;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    ul{
+        list-style: none;
+		background-image: radial-gradient(circle at 50% -20.71%, #d6d4f1 0, #dad3ef 6.25%, #dfd2ed 12.5%, #e3d0ea 18.75%, #e7cfe8 25%, #eacfe4 31.25%, #edcee1 37.5%, #f0cdde 43.75%, #f2cdda 50%, #f4cdd6 56.25%, #f5cdd3 62.5%, #f5cdcf 68.75%, #f5cdcb 75%, #f5cec8 81.25%, #f4cec5 87.5%, #f3cfc2 93.75%, #f1d0c0 100%);    }
+    
+    li{
+        display: inline;
+        color: white;
+    }
+    
+    a{
+        display: inline-block;
+		background-image: radial-gradient(circle at 119.64% 37.72%, #afdbfb 0, #b5d9fc 6.25%, #bcd8fd 12.5%, #c3d6fd 18.75%, #cad4fc 25%, #d1d2fb 31.25%, #d8d0f8 37.5%, #dfcff6 43.75%, #e5cdf2 50%, #ebcbee 56.25%, #f0cae9 62.5%, #f5c9e4 68.75%, #f8c8df 75%, #fbc8da 81.25%, #fec7d4 87.5%, #ffc7cf 93.75%, #ffc8c9 100%);        color: white;
+        padding: 20px;
+    }
+    
+    a:hover{
+        background-color: white;
+        color: rgb(75, 73, 73);
+    }
+    
+    img{
+        width: 0px;
+    }
+    
+    input[type="checkbox"]{
+        display: none;
+    }
+    
+    label{
+        padding: 15px;
+        position: absolute;
+        z-index: 1;
+    }
+}
