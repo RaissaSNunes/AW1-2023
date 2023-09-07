@@ -1,0 +1,41 @@
+header{
+    text-align: center;
+    background-image: radial-gradient(circle at 50% -20.71%, #e3d0e6 0, #e6cfe4 6.25%, #e9cee1 12.5%, #eccede 18.75%, #eecdda 25%, #f0cdd7 31.25%, #f1cdd4 37.5%, #f2cdd0 43.75%, #f2cdcd 50%, #f2cdca 56.25%, #f1cec7 62.5%, #f0cfc4 68.75%, #efcfc2 75%, #edd0c0 81.25%, #ead1be 87.5%, #e8d2bd 93.75%, #e5d3bc 100%);
+}
+
+table{
+    border:1px solid rgb(1, 1, 1);
+	border:1px solid rgb(1, 1, 1);
+	background-image: linear-gradient(180deg, #ffb8eb 0, #ffafe6 16.67%, #ffa7df 33.33%, #f29dd5 50%, #db93ca 66.67%, #c58bc0 83.33%, #b283b6 100%);
+	margin:auto;
+}
+
+p{
+    background-image: radial-gradient(circle at 50% -20.71%, #cad7f9 0, #d0d6f9 6.25%, #d5d4f7 12.5%, #dbd3f5 18.75%, #e0d2f3 25%, #e5d0f0 31.25%, #eacfed 37.5%, #eecee9 43.75%, #f2cde5 50%, #f5cce1 56.25%, #f8ccdc 62.5%, #facbd8 68.75%, #fbcbd3 75%, #fccccf 81.25%, #fccccb 87.5%, #fcccc7 93.75%, #fbcdc3 100%);
+}
+
+form{
+    background-image: radial-gradient(circle at 50% -20.71%, #ffdcf4 0, #ffd3f3 12.5%, #ffc9f2 25%, #ffbff2 37.5%, #f2b5f2 50%, #e2acf3 62.5%, #d0a4f4 75%, #bc9ff6 87.5%, #a69bf8 100%);
+}
+
+footer{
+	font-size: 10px;
+}
+
+th, td{
+	border: 1px black solid;
+    padding: 20px;
+	font-weight: bold; 
+	font-size: 16px;   
+    color: black;
+}
+
+lista{
+	 color: black;
+	 font-size: 16px; 
+     margin-bottom: 10px;
+}
+
+endereco{
+    margin: 20px 0;  
+}
